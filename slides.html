@@ -1,0 +1,130 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/beige.css" id="theme">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/css/zenburn.css">
+
+		<title>Oslo Kotlin Meetup 05.11.18 - Testing in Kotlin and YOU!</title>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-transition="concave" data-background="https://i.ytimg.com/vi/Vw21X2jKwCM/maxresdefault.jpg">
+					<h2 style="color: red; text-shadow: 5px 5px 10px #d41500;">Testing in Kotlin - and YOU!</h2>
+					<h4 style="color: red; text-shadow: 5px 5px 10px #d41500;">by Marie K. Ekeberg</h4>
+				</section>
+
+				<section data-transition="concave">
+					<h2>Who am I?</h2>
+
+					<img src="https://c1.staticflickr.com/1/23/34238684_52400ab437_z.jpg?zz=1" style="float: right; width: 30%;" />
+					
+					<ul style="display: block; width: 65%">
+						<li>Programmer by lifestyle!</li>
+						<li>Computer, math and technology lover</li>
+						<li>Works at EVRY</li>
+						<li class="fragment">GNU/Emacs evangelist</li>
+						<li class="fragment">...gave a lightning talk about this at JavaZone 2018! :D</li>
+					</ul>
+				</section>
+
+				<section data-transition="concave">
+					<h2>Introducing the testing frameworks</h2>
+					<ul>
+						<li>JUnit 5</li>
+						<li>Spek</li>
+					</ul>
+				</section>
+
+				<section data-transition="concave">
+					<h2>JUnit 5 - Introduction</h2>
+				</section>
+
+				<section data-transition="concave">
+					<h2>Spek - Introduction</h2>
+				</section>
+
+				<section data-transition="concave">
+					<h2>Demo time! - JUnit 5 vs Spek</h2>
+				</section>
+
+				<section data-transition="concave">
+					<h2>Assertion framworks</h2>
+				</section>
+
+				<section data-transition="concave">
+					<h2>More JUnit 5 features</h2>
+				</section>
+
+				<section data-transition="concave">
+					<h2>More Spek features</h2>
+				</section>
+				
+				<section data-transition="concave">
+					<h2>Mocking</h2>
+				</section>
+
+				<section data-transition="concave">
+					<h2>Mocking demo!</h2>
+				</section>
+
+				<section data-transition="concave">
+					<h2>More Spek features</h2>
+				</section>
+
+				<section data-transition="concave">
+					<h2>Test data builders</h2>
+
+					<ul>
+						<li>Why not to do all object initialization in tests?</li>
+						<li>How is this any different from Java?!?!</li>
+					</ul>
+				</section>
+
+				<section data-transition="concave">
+					<h2>Test data builders - A simple test class</h2>
+
+					<img src="slide-img/builder_testclass.png" />
+				</section>
+
+				<section data-transition="concave">
+					<h2>Test data builders - Builder in Java</h2>
+
+					<img src="slide-img/builder_java.png" />
+				</section>
+
+				<section data-transition="concave">
+					<h2>Test data builders - Builder in Kotlin</h2>
+
+					<img src="slide-img/builder_kotlin.png" />
+				</section>
+
+				<section data-transition="concave">
+					<h2>Example: Testing Spring applications</h2>
+					<ul>
+						<li>Very straight-forward in JUnit 5</li>
+						<li>Untill recently not that straight-forward with Spek</li>
+					</ul>
+				</section>
+
+				<section data-transition="concave" data-background="http://www.fotballblogg1.com/wp-content/uploads/2017/12/thats-all.png">
+				</section>
+
+				<section data-transition="concave">
+					<p>github.com/markydawn</p>
+					<p>marie.ekeberg@EVRY.com</p>
+					<p>mke@themkat.net</p>
+				</section>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script>
+		<script>
+		 Reveal.initialize({
+			 dependencies: [
+				 { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			 ]
+		 });
+		</script>
+	</body>
+</html>
