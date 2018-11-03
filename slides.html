@@ -48,27 +48,29 @@
 					</ul>
 				</section>
 
-				<section data-transition="concave">
-					<h2>Spek - Introduction</h2>
+				<section>
+					<section data-transition="concave">
+						<h2>Spek - Introduction</h2>
 
-					<ul>
-						<li>DSL for testing</li>
-						<li>May be familiar if you use JS (Ava, Jest etc.)</li>
-						<li>Uses JUnit 5 as an engine</li>
-						<li>Spring and other framworks mostly tedious to test</li>
-					</ul>
-				</section>
+						<ul>
+							<li>DSL for testing</li>
+							<li>May be familiar if you use JS (Ava, Jest etc.)</li>
+							<li>Uses JUnit 5 as an engine</li>
+							<li>Spring and other framworks mostly tedious to test</li>
+						</ul>
+					</section>
 
-				<section data-transition="concave">
-					<h2>Spek - Standard syntax</h2>
+					<section data-transition="concave">
+						<h2>Spek - Standard syntax</h2>
 
-					<img src="slide-img/spek_test.png" />
-				</section>
+						<img src="slide-img/spek_test.png" />
+					</section>
 
-				<section data-transition="concave">
-					<h2>Spek - Cucumber flavour</h2>
+					<section data-transition="concave">
+						<h2>Spek - Cucumber flavour</h2>
 
-					<img src="slide-img/spek_gherkin.png" />
+						<img src="slide-img/spek_gherkin.png" />
+					</section>
 				</section>
 
 				<section data-transition="concave">
@@ -81,49 +83,73 @@
 
 				<section data-transition="concave">
 					<h2>More JUnit 5 features</h2>
+
+					<ul>
+						<!-- TODO: insert some examples  -->
+						<li>Parameterized tests! (improved after JUnit 4)</li>
+						<li></li>
+					</ul>
 				</section>
 
 				<section data-transition="concave">
 					<h2>More Spek features</h2>
+
+					<ul>
+						<!-- TODO: insert a screen shot simply shows how this works. Maybe we can skip the list if we do this? -->
+						<li>beforeGroup, beforeTest, afterGroup, afterTest - Running code before groups or tests</li>
+					</ul>
 				</section>
 				
 				<section data-transition="concave">
 					<h2>Mocking</h2>
+
+					<ul>
+						<li>Can use what you are used to in Java (Mockito etc.)</li>
+						<li>MockK - DSL for mocking
+							<ul>
+								<li>Can use annotations like in Mockito: @InjectMockKs, @MockK etc.</li>
+								<li>...but why use that when you have DSL?!?</li>
+								<li>Has the most important mocking functionality</li>
+							</ul>
+						</li>
+					</ul>
 				</section>
 
 				<section data-transition="concave">
 					<h2>Mocking demo!</h2>
 				</section>
+				
+				<section>
+					<section data-transition="concave">
+						<h2>Test data builders</h2>
+						
+						<ul>
+							<li>Why not to do all object initialization in tests?</li>
+							<li>How is this any different from Java?!?!</li>
+						</ul>
+					</section>
+					
+					<section data-transition="concave">
+						<h2>Test data builders - A simple test class</h2>
+						
+						<img src="slide-img/builder_testclass.png" />
+					</section>
 
-				<section data-transition="concave">
-					<h2>More Spek features</h2>
-				</section>
+					<section data-transition="concave">
+						<h2>Test data builders - Builder in Java</h2>
+						
+						<img src="slide-img/builder_java.png" />
+					</section>
+					
+					<section data-transition="concave">
+						<h2>Test data builders - Builder in Kotlin</h2>
+						
+						<img src="slide-img/builder_kotlin.png" />
+					</section>
 
-				<section data-transition="concave">
-					<h2>Test data builders</h2>
-
-					<ul>
-						<li>Why not to do all object initialization in tests?</li>
-						<li>How is this any different from Java?!?!</li>
-					</ul>
-				</section>
-
-				<section data-transition="concave">
-					<h2>Test data builders - A simple test class</h2>
-
-					<img src="slide-img/builder_testclass.png" />
-				</section>
-
-				<section data-transition="concave">
-					<h2>Test data builders - Builder in Java</h2>
-
-					<img src="slide-img/builder_java.png" />
-				</section>
-
-				<section data-transition="concave">
-					<h2>Test data builders - Builder in Kotlin</h2>
-
-					<img src="slide-img/builder_kotlin.png" />
+					<section>
+						<h2>This seems like much extra work?!?! Why not just initialize objects directly?!!?</h2>
+					</section>
 				</section>
 
 				<section data-transition="concave">
@@ -139,8 +165,8 @@
 
 				<section data-transition="concave">
 					<p>github.com/markydawn</p>
-					<p>marie.ekeberg@EVRY.com</p>
 					<p>mke@themkat.net</p>
+					<p>marie.ekeberg@EVRY.com</p>
 				</section>
 			</div>
 		</div>
