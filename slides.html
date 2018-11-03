@@ -176,7 +176,10 @@
 		 Reveal.initialize({
 			 dependencies: [
 				 { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-			 ]
+			 ],
+			 keyboard: {
+				 39: 'next'
+			 }
 		 });
 		</script>
 	</body>
