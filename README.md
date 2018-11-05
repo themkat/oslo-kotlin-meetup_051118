@@ -17,6 +17,10 @@ Here I must confess, I still don't know why it won't load. In other projects whe
 * If the mocking demo hadn't gotten the unexpected errors (which was still cool to learn!) I would have covered verifications as well. Verifications are as simple as mocking, but they are used to verify that a given function or method is called. If you have a mock (or spy) `mymock`, then `verify(exactly = 1) { mymock.method(1) }` will check that the method `method` in `mymock` is called exactly once. Read more about that and more in [the MockK documentation](https://github.com/mockk/mockk). 
 
 
+### Spek Spring Utils
+This was probably the most disappointing thing for me in this meetup, but still the most exciting (if that makes any sense). For one, it was fun finding an issue that can be solved in my library, but on the other hand I really wanted everything to work. It seems like application-properties are not loaded the expected way when starting Spring manually. I will consult my earlier tests and debug this issue more. Sadly I need sleep to be able to work :( 
+
+
 ## Extra resources
 These resources may help you to learn more about the topics from the meetup presentation. Some of them may go more into detail, which can help you in deciding what you should use for your project.
 * [JUnit 5 user guide](https://junit.org/junit5/docs/current/user-guide/) (contains a lot of information on what's new)
