@@ -35,6 +35,11 @@
             <id>jcenter</id>
             <url>https://jcenter.bintray.com/</url>
         </repository>
+
+        <repository>
+            <id>spek-spring-utils</id>
+            <url>https://dl.bintray.com/themkat/spek-spring-utils</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -129,6 +134,12 @@
                     <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>net.themkat.spek.spring.utils</groupId>
+            <artifactId>spek-spring-utils</artifactId>
+            <version>0.1.0</version>
         </dependency>
     </dependencies>
 

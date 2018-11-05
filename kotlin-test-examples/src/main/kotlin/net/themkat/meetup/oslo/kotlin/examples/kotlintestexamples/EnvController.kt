@@ -7,10 +7,10 @@ import org.springframework.stereotype.Controller
 
 
 @Controller
-class EnvController(@Autowired var environment: Environment) {
+class EnvController(val environment: Environment) {
 
     fun getFavouriteComputers(): List<String> {
-        val computers: String = environment["themkat.favouriteComputers"] ?: "Fischer Price Play Computer"
+        val computers: String = environment.getProperty("themkat.favouriteComputers") ?: "Fischer Price Play Computer"
         return computers.split(",")
     }
 
