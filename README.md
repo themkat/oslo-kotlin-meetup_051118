@@ -9,7 +9,7 @@ Testing in Kotlin and YOU! Code examples and slides from my presentation. Code i
 Here are a few things I think is worth mentioning after the meetup. If might be something we learned, or some other things worth mentioning.
 
 ### Kluent dependency
-Here I must confess, I still don't know why it won't load. In other projects where I used Gradle, everything works like a charm. If you know what the issue is, please let me know! I have tried downgrading the version, changing the type and more. Even removing type and just setting scope test. In a Gradle project the guides from the [Kluent github page](https://github.com/MarkusAmshove/Kluent) works just fine. 
+I found the issue. You can't use the dependency as it's stated on the [Kluent github page](https://github.com/MarkusAmshove/Kluent). You should remove `<type>pom</type>` and replace it with `<scope>test</scope>`. Don't know why this didn't work earlier, but after I did a Maven clean install it worked. You get nervous when live-coding, so I'm just going to blame that :) 
 
 
 ### MockK
