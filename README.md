@@ -18,7 +18,7 @@ I found the issue. You can't use the dependency as it's stated on the [Kluent gi
 
 
 ### Spek Spring Utils
-This was probably the most disappointing thing for me in this meetup, but still the most exciting (if that makes any sense). For one, it was fun finding an issue that can be solved in my library, but on the other hand I really wanted everything to work. It seems like application-properties are not loaded the expected way when starting Spring manually. I will consult my earlier tests and debug this issue more. Sadly I need sleep to be able to work :( 
+This was probably the most disappointing thing for me in this meetup, but still the most exciting (if that makes any sense). For one, it was fun finding an issue that can be solved in my library, but on the other hand I really wanted everything to work. It seems like application-properties are not loaded the expected way when starting Spring manually. I will consult my earlier tests and debug this issue more. If you are interested in following the progress, and read more about the problem, take a look at the [Spek Spring Utils issue](https://github.com/markydawn/spek-spring-utils/issues/1).
 
 
 ## Extra resources
